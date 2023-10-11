@@ -1,53 +1,127 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tim Berners-Lee</title>
   </head>
   <body>
+    <div class="vertical-line"></div>
     <header>
-      <nav>
-          <div class="navbar">
-              <a href=""><img class="logo" src="Images/MendelNewThistleLogo.webp" alt=""></a>
-              <button class="menu-burger" onclick="toggleMenu()">
-                 <ul>
-                  <li><a href="#"></a>Browse</li>
-                  <li><a href="#"></a>Search</li>
-                  <li><a href="#"></a>Dictionary</li>
-                  <li><a href="#"></a>Quizz</li>
-                  <li><a href="#"></a>Money</li>
-                 </ul>
-              </button>
-              <ul id="nav-links">
-                  <li><a href="#"></a>Browse</li>
-                  <li><a href="#"></a>Search</li>
-                  <li><a href="#"></a>Dictionary</li>
-                  <li><a href="#"></a>Quizz</li>
-                  <li><a href="#"></a>Money</li>
-              </ul>
-          </div>
+      <nav class="navbar">
+        <img class="logo" src="Images/MendelNewThistleLogo.webp" alt="" />
+
+        <ul class="nav-links">
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-bars" style="color: #ffffff"></i>Browse</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-book"></i>Dictionary</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-graduation-cap"></i>Quizzes</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-money-bill"></i>Money</a>
+          </li>
+        </ul>
+        <button class="Subscribe">Subscribe</button>
+        <a class="login-link" href="#"
+          ><i class="fa-regular fa-circle-user" style="color: #000000"></i>
+        </a>
       </nav>
-  </header>
+    </header>
+    <div class="breadcrumb">Home > Science > Mathematics</div>
     <main>
-      <section class="button">
-        <h1>Tim Berners Lee</h1>
+      <article class="content-column">
+        <h1>Tim Berners-Lee</h1>
         <h3>British scientist</h3>
-        <button>test</button>
-        <button>cite</button>
-        <button>share</button>
-        <button>feedback</button>
-        <button>img</button>
-      </section>
-      <section class="Tim">
-        <img class="Image-tim" src="Images/British-scientist-Tim-Berners-Lee.webp" alt=""> 
-      <p>test un deux</p></section>
-      <article><p>Tim Berners-Lee, in full Sir Tim Berners-Lee, (born June 8, 1955, London, England), British computer scientist, generally credited as the inventor of the World Wide Web. In 2004 he was awarded a knighthood by Queen Elizabeth II of the United Kingdom and the inaugural Millennium Technology Prize (€1 million) by the Finnish Technology Award Foundation.
 
-        Computing came naturally to Berners-Lee, as both of his parents worked on the Ferranti Mark I, the first commercial computer. (See computer: The first stored-program machines.) After graduating in 1976 from the University of Oxford, Berners-Lee designed computer software for two years at Plessey Telecommunications Ltd., located in Poole, Dorset, England. Following this, he had several positions in the computer industry, including a stint from June to December 1980 as a software engineering consultant at CERN, the European particle physics laboratory in Geneva.</p></article>
+        <button class="buttons"><i class="fa fa-print"></i>Print</button>
+        <button class="buttons"><i class="fa fa-certificate"></i>Cite</button>
+        <button class="buttons"><i class="fa fa-share"></i>Share</button>
+        <button class="buttons"><i class="fa fa-comment"></i>Feedback</button>
+        <button class="buttons">
+          <i class="fa fa-ellipsis-vertical"></i>test
+        </button>
 
+        <p class="alternate-titles">Alternate titles: Sir Berrners-Lee</p>
+        <p class="last-update">
+          By <a href="">Michael Aaron Denis</a> * Last update: Dec 2, 2022*
+          <a href="">Edit history</a>.
+        </p>
+        <div class="container">
+          <aside class="card">
+            <figure class="image-box">
+              <img
+                src="Images/British-scientist-Tim-Berners-Lee.webp"
+                alt="Tim Berners-Lee"
+              />
+              <figcaption>Tim Berners-Lee</figcaption>
+            </figure>
+            <p class="media"><a href=" "> See all media</a></p>
+            <hr />
+            <p class="text-card">
+              <b>Born:</b> June 8, 1955 (age 67) <br /><a
+                href="https://www.britannica.com/place/London"
+                >London</a
+              >*<a href="https://www.britannica.com/place/England">England</a>
+            </p>
+            <p class="text-card">
+              <b>Founder:</b>
+              <a
+                href="https://www.britannica.com/topic/World-Wide-Web-Consortium"
+                >World Wide Web Consortium</a
+              >
+            </p>
+            <p class="text-card">
+              <b>Invention:</b
+              ><a
+                href="https://www.britannica.com/topic/World-Wide-Web-Consortium"
+                >World Wide Web </a
+              >*<a
+                href="https://www.britannica.com/topic/World-Wide-Web-Consortium"
+                >World Wide Web
+              </a>
+            </p>
+            <p class="content">
+              <button class="See"><b>See all related content &rarr;</b></button>
+            </p>
+          </aside>
+        </div>
+        <p class="text">
+          <b>Tim Berners-Lee,</b> in full Sir <b>Tim Berners-Lee,</b> (born June
+          8, 1955, <a href="">London,</a> England), British computer scientist,
+          generally <a href="">credited</a> as the inventor of the
+          <a href="">World Wide Web</a>. In 2004 he was awarded a knighthood by
+          Queen <a href="">Elizabeth II</a> of the United Kingdom and the
+          inaugural Millennium Technology Prize (€1 million) by the Finnish
+          Technology Award Foundation. <br />
+          <br />
+          Computing came naturally to Berners-Lee, as both of his parents worked
+          on the <a href="">Ferranti Mark I</a>, the first commercial computer.
+          (See <a href="">computer: The first stored-program machines.</a> )
+          After graduating in 1976 from the <a href="">University of Oxford</a>,
+          Berners-Lee designed computer <a href="">software</a> for two years at
+          Plessey Telecommunications Ltd., located in <a href="">Poole</a>,
+          Dorset, <a href="">England</a>. Following this, he had several
+          positions in the computer industry, including a stint from June to
+          December 1980 as a software engineering consultant at
+          <a href="">CERN</a>, the European
+          <a href="">particle physics</a> laboratory in <a href="">Geneva</a>.
+        </p>
+      </article>
     </main>
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
