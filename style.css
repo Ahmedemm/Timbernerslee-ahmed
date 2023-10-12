@@ -37,6 +37,7 @@ header {
   max-width: 1200px;
   padding: 0 20px;
 }
+
 .logo{
   width: 150px;
 }
@@ -185,6 +186,29 @@ a {
   height: auto;
   font-size: 16px;
 }
+@media (min-width: 768px){
+.buttons-mobile {
+    display: none;
+    background-color: white;
+    color: #194061;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    
+  
+}
+.navi{
+  display: none;
+  justify-content:baseline;
+  align-items: center;
+  max-width: 1200px;
+  padding: 0 20px;
+  background-color: #ccc;
+  border: 1px solid black;
+}
+}
 
 .hr {
   border: none;
@@ -207,4 +231,72 @@ h3 {
   color: gray;
   font-size: 14px;
   font-style: oblique;
+}
+@media (max-width: 768px) {
+  .container{
+  
+  }
+  .top-text{
+    order: 1;
+  }
+  .card{
+    float: top;
+    width: 100vw;
+    margin: 10px;
+    display: contents;
+    text-align: center;
+  }
+  .text-card>a{
+    color: blue;
+  }
+  .content-column{
+    width: 90vw;
+    margin: 20px;
+    padding: 20px;
+  }
+  .image-box>img{
+    width: fit-content;
+    height: fit-content;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.buttons{
+  display: none;
+}
+.buttons-mobiles {
+  display:block;
+  background-color: white;
+  color: #194061;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  font-size: 16px;
+}
+.See{
+  width: 90vw;
+  margin: 10px;
+  
+}
+.navi{
+  display: flex;
+  justify-content:baseline;
+  align-items: center;
+  max-width: 1200px;
+  padding: 0 20px;
+  background-color: #ccc;
+  border: 1px solid black;
+  height: 40px;
+  
+}
+.ul-nav{
+  display: flex ;
+  color: white;
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  
+
+}
 }
