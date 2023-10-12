@@ -14,34 +14,35 @@
   <body>
     <div class="vertical-line"></div>
     <header>
-      <nav class="navbar">
-        <img class="logo" src="Images/MendelNewThistleLogo.webp" alt="" />
-
-        <ul class="nav-links">
-          <li>
-            <a href="#"
-              ><i class="fa-solid fa-bars" style="color: #ffffff"></i>Browse</a
-            >
-          </li>
-          <li>
-            <a href="#"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-solid fa-book"></i>Dictionary</a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-solid fa-graduation-cap"></i>Quizzes</a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-solid fa-money-bill"></i>Money</a>
-          </li>
-        </ul>
-        <button class="Subscribe">Subscribe</button>
+      <nav>
+          <div class="navbar">
+              <a href=""><img class="logo" src="Images/MendelNewThistleLogo.webp" alt=""></a>
+              <button class="menu-burger" onclick="toggleMenu()">
+                
+                 <ul>
+                  <li><a href="#"></a>Browse</li>
+                  <li><a href="#"></a>Search</li>
+                  <li><a href="#"></a>Dictionary</li>
+                  <li><a href="#"></a>Quizz</li>
+                  <li><a href="#"></a>Money</li>
+                 </ul>
+              </button>
+              <ul id="nav-links">
+                  <li><a href="#"></a>Browse</li>
+                  <li><a href="#"></a>Search</li>
+                  <li><a href="#"></a>Dictionary</li>
+                  <li><a href="#"></a>Quizz</li>
+                  <li><a href="#"></a>Money</li>
+              </ul>
+          </div>
+          <button class="Subscribe">Subscribe</button>
         <a class="login-link" href="#"
           ><i class="fa-regular fa-circle-user" style="color: #000000"></i>
         </a>
       </nav>
-    </header>
+  </header>
+
+        
     <div class="breadcrumb">Home > Science > Mathematics</div>
     <main>
       <article class="content-column">
